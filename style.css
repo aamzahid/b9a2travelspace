@@ -571,8 +571,12 @@ input[type="checkbox"] {
 
 .icon-container .fa-brands {
     color: rgb(0, 0, 0);
-    margin-right: 20px;
+
     font-size: 30px;
+}
+.icon-container{
+    display: flex;
+    gap: 20px
 }
 
 .line2 {

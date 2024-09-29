@@ -214,4 +214,21 @@
         padding: 20px;
     }
 
+    .left-nav{
+        font-size: 24px;
+       width: 79%;
+       
+    }
+    .d-des{
+        padding: 0 60px;
+    }
+    .line2{
+        width: 90%;
+    }
+    .icon-container{
+        display: flex;
+        margin-right: 0px;
+        gap: 20px;
+    }
+
 }
