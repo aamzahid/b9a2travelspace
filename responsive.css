@@ -1,14 +1,54 @@
 @media screen and (max-width:600px) {
 
-    .navbar {
-        flex-direction: column;
-    }
 
-    .right-nav {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 10px;
+        .navbar {
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 10px;
+        }
+    
+        .left-nav {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            align-items: center;
+        }
+    
+        /* Hide navigation links initially on mobile */
+        .right-nav {
+            display: none;
+            flex-direction: column;
+            width: 100%;
+            list-style: none;
+        }
+    
+        .right-nav li {
+            margin: 10px 0;
+            text-align: left;
+        }
+    
+        .right-nav a {
+            font-size: 16px;
+            color: white;
+        }
+    
+        /* Show the burger menu on mobile */
+        .menu-toggle-label {
+            display: block;  /* Show toggle icon on mobile */
+            font-size: 30px;
+            color: rgb(0, 0, 0);
+            cursor: pointer;
+        }
+    
+        /* When the checkbox is checked, show the navigation */
+        input[type="checkbox"]:checked ~ .right-nav {
+            display: flex;
+        }
+    
+    
+    /* Hover effect for the burger icon */
+    .menu-toggle-label:hover {
+        color: #ca4a23;
     }
 
     header {

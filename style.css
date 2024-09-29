@@ -81,7 +81,13 @@ main {
     color: rgb(66, 66, 71);
 }
 
+input[type="checkbox"] {
+    display: none;
+}
 
+.menu-toggle-label {
+    display: none;
+}
 
 /* <!------------------- Banner ------------------> */
 .banner {
